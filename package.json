@@ -1,0 +1,44 @@
+{
+  "name": "js-spa-example",
+  "version": "0.0.1",
+  "description": "JavaScript SPA Example",
+  "main": "lib/server.js",
+  "scripts": {
+    "webpack": "webpack -d",
+    "webpack:watch": "webpack -wd",
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev:all": "concurrently 'npm run webpack:watch' 'npm run dev'"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLackey/js-spa-example.git"
+  },
+  "author": "Fred Lackey <fred.lackey@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FredLackey/js-spa-example/issues"
+  },
+  "homepage": "https://github.com/FredLackey/js-spa-example#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "concurrently": "^3.6.1",
+    "eslint": "^5.4.0",
+    "nodemon": "^1.18.3",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
