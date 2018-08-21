@@ -7,32 +7,39 @@ This project demonstrates the implementation of a single-page application (also 
 
 ## Installation & Execution
 
-**Step 1:**  Clone the Repository
+**Step 1:** Clone the Repository
 
 > `git clone git@github.com:FredLackey/js-spa-example.git`
 
-**Step 2:**  Install Dependencies
+**Step 2:** Install Dependencies
 
 > `cd js-spa-example.git`  
 > `npm install`
 
-**Step 3:**  Compile & Run
+**Step 3:** Compile
 
-To simply view the example, execute two commands in the following order:
+The modern JavaScript, within the demo application, must be compiled into a browser-friendly (aka "older") version. We use WebPack to do this. You may run WebPack once, to simply compile it, or you may add the "watch" suffix to keep it running in the background watching for changes to the code:
 
-> `npm run webpack`  
+> `npm run webpack`
+
+... or ...
+
+> `npm run webpack:watch`
+
+**Step4:** Run the Applciation
+
+Now that the JavaScrip is ready for the browser, we launch the development server. Similar to the "Compile" step, above, you may either launch it once, to simply view the app, or you may keep it running throughout development by adding the "watch" suffix to the command:
+
 > `npm run dev`
 
-If you are planning to develop the project, either launch the two commands in separate terminal instances:
+... or ...
 
-> `npm run webpack:watch`  
-> `npm run dev`
+> `npm run dev:watch`
 
-... or ... a single command in one termain instance:
+**Note:**  
+If you will be developing the app, and using the "watch" suffix for the commands above, you must execute each command in a separate terminal instance.
 
-> `npm run dev:all`
-
-**Step 4:**  Launch Browser
+**Step 4:** Launch Browser
 
 Once the project is running, launch the browser and navigate to the following URL:
 
@@ -40,5 +47,7 @@ Once the project is running, launch the browser and navigate to the following UR
 
 ---
 
-## Versions  
+## Versions
+
 **v0.0.1 :** Initial setup
+**v0.0.2 :** Clean up structure, move back end to es6/7, prep api

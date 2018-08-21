@@ -81,20 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./lib/components/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./client/lib/components/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./lib/components/index.js":
-/*!*********************************!*\
-  !*** ./lib/components/index.js ***!
-  \*********************************/
+/***/ "./client/lib/components/index.js":
+/*!****************************************!*\
+  !*** ./client/lib/components/index.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nmodule.exports = {};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvY29tcG9uZW50cy9pbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9saWIvY29tcG9uZW50cy9pbmRleC5qcz8wNjA3Il0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0ge1xyXG5cclxufTsiXSwibWFwcGluZ3MiOiI7O0FBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./lib/components/index.js\n");
+eval("\n\nmodule.exports = {};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jbGllbnQvbGliL2NvbXBvbmVudHMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vY2xpZW50L2xpYi9jb21wb25lbnRzL2luZGV4LmpzP2VhMGUiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSB7XG5cbn07Il0sIm1hcHBpbmdzIjoiOztBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./client/lib/components/index.js\n");
 
 /***/ })
 

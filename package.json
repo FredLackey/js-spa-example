@@ -1,12 +1,13 @@
 {
   "name": "js-spa-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript SPA Example",
   "main": "lib/server.js",
   "scripts": {
     "webpack": "webpack -d",
     "webpack:watch": "webpack -wd",
-    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev": "babel-node sever/server.js",
+    "dev:watch": "nodemon --exec babel-node server/server.js",
     "dev:all": "concurrently 'npm run webpack:watch' 'npm run dev'"
   },
   "babel": {
@@ -38,7 +39,10 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "request": "^2.88.0"
   }
 }
